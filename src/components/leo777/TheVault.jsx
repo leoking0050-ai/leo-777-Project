@@ -38,15 +38,19 @@ const TRUST = [
 function PayoutMarquee() {
   return (
     <div className="relative overflow-hidden border-y border-brass/10 py-4 bg-obsidian-deep">
-      <SlideStrip speed={0.7} itemClassName="gap-8">
-        {PAYOUTS.map((p, i) => (
-          <div key={i} className="flex items-center gap-3 text-sm">
-            <span className="h-1.5 w-1.5 rounded-full bg-[#00F0FF] pulse-cyan" />
-            <span className="text-white/40 uppercase tracking-mega text-xs">User {p.user}</span>
-            <span className="text-brass font-display">won {p.amount}</span>
-            <span className="text-white/30 text-xs">· {p.game}</span>
-            <span className="text-white/10 ml-4">/</span>
-          </div>
+      <SlideStrip speed={0.8} itemClassName="gap-8">
+        {[...Array(4)].map((_, r) => (
+          <React.Fragment key={r}>
+            {PAYOUTS.map((p, i) => (
+              <div key={i} className="flex items-center gap-3 text-sm">
+                <span className="h-1.5 w-1.5 rounded-full bg-[#00F0FF] pulse-cyan" />
+                <span className="text-white/40 uppercase tracking-mega text-xs">User {p.user}</span>
+                <span className="text-brass font-display">won {p.amount}</span>
+                <span className="text-white/30 text-xs">· {p.game}</span>
+                <span className="text-white/10 ml-4">/</span>
+              </div>
+            ))}
+          </React.Fragment>
         ))}
       </SlideStrip>
     </div>

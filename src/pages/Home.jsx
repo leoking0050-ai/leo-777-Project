@@ -26,7 +26,7 @@ function BonusStrip() {
             <span className="text-white/10">/</span>
             <span className="flex items-center gap-3 text-sm">
               <span className="text-white/60 uppercase tracking-mega text-xs">Every Deposit Bonus</span>
-              <span className="text-cyan-glow font-display text-lg">5% Extra</span>
+              <span className="text-cyan-glow font-display text-lg">3% Extra</span>
             </span>
             <span className="text-white/10">/</span>
             <a

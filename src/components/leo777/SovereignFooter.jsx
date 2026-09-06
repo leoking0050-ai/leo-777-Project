@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowUpRight, ExternalLink } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { Image } from "@/components/ui/image";
 import WhatsAppButton from "@/components/leo777/WhatsAppButton";
 
@@ -46,9 +46,8 @@ export default function SovereignFooter() {
                 target="_blank"
                 rel="noopener noreferrer"
                 data-cursor="hover"
-                className="animate-pop-in inline-flex items-center justify-between gap-2 rounded-full bg-brass px-6 py-2.5 text-[10px] uppercase tracking-mega text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(197,160,89,0.35)]"
+                className="animate-pop-in inline-flex items-center justify-center gap-2 rounded-full bg-brass px-6 py-2.5 text-[10px] uppercase tracking-mega text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(197,160,89,0.35)]"
               >
-                <ExternalLink size={11} />
                 Demo Account 1
               </a>
               <a
@@ -56,9 +55,8 @@ export default function SovereignFooter() {
                 target="_blank"
                 rel="noopener noreferrer"
                 data-cursor="hover"
-                className="animate-pop-in-delayed inline-flex items-center justify-between gap-2 rounded-full bg-brass px-6 py-2.5 text-[10px] uppercase tracking-mega text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(197,160,89,0.35)]"
+                className="animate-pop-in-delayed inline-flex items-center justify-center gap-2 rounded-full bg-brass px-6 py-2.5 text-[10px] uppercase tracking-mega text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(197,160,89,0.35)]"
               >
-                <ExternalLink size={11} />
                 Demo Account 2
               </a>
             </div>
