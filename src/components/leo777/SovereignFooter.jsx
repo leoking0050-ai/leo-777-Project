@@ -59,6 +59,15 @@ export default function SovereignFooter() {
               >
                 Demo Account 2
               </a>
+              <a
+                href="https://www.My99exch.ink"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cursor="hover"
+                className="animate-pop-in-delayed inline-flex items-center justify-center gap-2 rounded-full bg-brass px-6 py-2.5 text-[10px] uppercase tracking-mega text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(197,160,89,0.35)]"
+              >
+                Demo Account 3
+              </a>
             </div>
           </div>
         </div>
