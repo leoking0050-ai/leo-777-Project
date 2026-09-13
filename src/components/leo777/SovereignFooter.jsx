@@ -36,6 +36,22 @@ export default function SovereignFooter() {
               Instant activation. Minimum deposit ₹300. Withdrawal in 10 minutes. Your entry into the pride awaits.
             </p>
           </div>
+      </div>    
+
+          {/* CTA + demo account links */}
+          <div className="flex flex-col gap-3">
+            <WhatsAppButton label="Get ID on WhatsApp" onClick={haptic} />
+            <div className="flex flex-col gap-2">
+              {/* CTA + demo account links */}
+              <div className="flex flex-col gap-3">
+                <WhatsAppButton label="Get ID on WhatsApp" onClick={haptic} />
+                <WhatsAppButton
+                  label="Customer Support"
+                  href="https://wa.link/leo777support"
+                  onClick={haptic}
+                  className="!py-2.5 !text-[10px]"
+                />
+                <div className="flex flex-col gap-2"></div>   
 
           {/* CTA + demo account links */}
           <div className="flex flex-col gap-3">
