@@ -44,7 +44,6 @@ export default function SovereignFooter() {
             <div className="flex flex-col gap-2">
               {/* CTA + demo account links */}
               <div className="flex flex-col gap-3">
-                <WhatsAppButton label="Get ID on WhatsApp" onClick={haptic} />
                 <WhatsAppButton
                   label="Customer Support"
                   href="https://wa.link/leo777support"
