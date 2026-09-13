@@ -36,7 +36,7 @@ export default function SovereignFooter() {
               Instant activation. Minimum deposit ₹300. Withdrawal in 10 minutes. Your entry into the pride awaits.
             </p>
           </div>
-      </div>    
+        </div>    
 
           {/* CTA + demo account links */}
           <div className="flex flex-col gap-3">
