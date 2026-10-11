@@ -3,7 +3,7 @@ import { ShieldCheck, Zap, MessageCircle, Lock } from "lucide-react";
 import { Image } from "@/components/ui/image";
 import SlideStrip from "@/components/leo777/SlideStrip";
 
-const WHATSAPP_URL = "https://wa.link/leodeposite07";
+const WHATSAPP_URL = "https://wa.me/919773676935";
 const GOLD_GEARS = "https://media.base44.com/images/public/6a9a64adc4cbeb4c4a0a6097/a8bc04322_generated_24b5a00f.jpg";
 
 const PAYOUTS = [
