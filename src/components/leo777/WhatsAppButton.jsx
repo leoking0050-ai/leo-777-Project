@@ -1,6 +1,6 @@
 import React from "react";
 
-export const WHATSAPP_URL = "https://wa.link/leodeposite07";
+export const WHATSAPP_URL = "https://wa.me/919773676935";
 
 export function WhatsAppLogo({ size = 16, className = "" }) {
   return (
