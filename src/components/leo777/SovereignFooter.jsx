@@ -40,33 +40,32 @@ export default function SovereignFooter() {
 
           {/* CTA + demo account links */}
           <div className="flex w-full flex-col gap-3 md:w-auto">
+            {/* Primary — WhatsApp */}
+            <WhatsAppButton label="Get ID on WhatsApp" onClick={haptic} className="w-full" />
 
-            {/* Row 1 — WhatsApp full width */}
-            <WhatsAppButton label="Get ID on WhatsApp" onClick={haptic} className="w-full justify-center" />
-
-            {/* Row 2 — Telegram + Support side by side */}
+            {/* Channels — Telegram + Support */}
             <div className="grid grid-cols-2 gap-3">
               <TelegramButton
                 label="Telegram"
                 onClick={haptic}
-                className="w-full justify-center !py-3 !text-[10px]"
+                className="w-full !py-2.5 !px-4 !text-[10px]"
               />
               <WhatsAppButton
                 label="Support"
-                href=""https://wa.me/917291080280"
+                href="https://wa.me/917291080280"
                 onClick={haptic}
-                className="w-full justify-center !py-3 !text-[10px]"
+                className="w-full !py-2.5 !px-4 !text-[10px]"
               />
             </div>
 
-            {/* Row 3 — Demo 1 + Demo 2 side by side, Demo 3 full width */}
+            {/* Demo accounts */}
             <div className="grid grid-cols-2 gap-3">
               <a
                 href="https://betbhai9.tax"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-cursor="hover"
-                className="inline-flex items-center justify-center rounded-full bg-brass px-4 py-3 text-[10px] uppercase tracking-mega text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(197,160,89,0.35)]"
+                className="inline-flex items-center justify-center rounded-full bg-brass px-4 py-2.5 text-[10px] uppercase tracking-mega text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(197,160,89,0.35)]"
               >
                 Demo Account 1
               </a>
@@ -75,7 +74,7 @@ export default function SovereignFooter() {
                 target="_blank"
                 rel="noopener noreferrer"
                 data-cursor="hover"
-                className="inline-flex items-center justify-center rounded-full bg-brass px-4 py-3 text-[10px] uppercase tracking-mega text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(197,160,89,0.35)]"
+                className="inline-flex items-center justify-center rounded-full bg-brass px-4 py-2.5 text-[10px] uppercase tracking-mega text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(197,160,89,0.35)]"
               >
                 Demo Account 2
               </a>
@@ -84,12 +83,11 @@ export default function SovereignFooter() {
                 target="_blank"
                 rel="noopener noreferrer"
                 data-cursor="hover"
-                className="col-span-2 inline-flex items-center justify-center rounded-full bg-brass px-4 py-3 text-[10px] uppercase tracking-mega text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(197,160,89,0.35)]"
+                className="inline-flex col-span-2 items-center justify-center rounded-full bg-brass px-4 py-2.5 text-[10px] uppercase tracking-mega text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(197,160,89,0.35)]"
               >
                 Demo Account 3
               </a>
             </div>
-
           </div>
         </div>
       </div>
