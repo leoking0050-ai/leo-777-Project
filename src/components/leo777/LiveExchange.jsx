@@ -3,7 +3,7 @@ import { Radio, ArrowRight } from "lucide-react";
 import { Image } from "@/components/ui/image";
 import WhatsAppButton from "@/components/leo777/WhatsAppButton";
 
-const WHATSAPP_URL = "https://wa.link/leodeposite07";
+const WHATSAPP_URL = "https://wa.me/919773676935";
 const IMG = "https://media.base44.com/images/public/6a9a64adc4cbeb4c4a0a6097";
 
 const PLATFORMS = [
