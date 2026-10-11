@@ -4,7 +4,7 @@ import { Home, Shield, Gamepad2, Trophy } from "lucide-react";
 import { Image } from "@/components/ui/image";
 import WhatsAppButton, { WhatsAppLogo } from "@/components/leo777/WhatsAppButton";
 
-const WHATSAPP_URL = "https://wa.link/leodeposite07";
+const WHATSAPP_URL = "https://wa.me/919773676935";
 const LEO_LOGO = leoLogo;
 
 export default function PrideNav() {
