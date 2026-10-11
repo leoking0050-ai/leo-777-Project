@@ -53,7 +53,7 @@ export default function SovereignFooter() {
               />
               <WhatsAppButton
                 label="Support"
-                href="https://wa.link/leo777support"
+                href=""https://wa.me/917291080280"
                 onClick={haptic}
                 className="w-full justify-center !py-3 !text-[10px]"
               />
