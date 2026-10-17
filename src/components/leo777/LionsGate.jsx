@@ -102,6 +102,21 @@ export default function LionsGate() {
             onClick={haptic}
             className="!px-8 !py-4 !text-sm"
           />
+          {/* Deposit / Withdrawal tabs */}
+          <div className="flex items-stretch gap-3">
+            <WhatsAppButton
+              label="Deposit"
+              href="https://wa.me/918929068257?text=Hello%20Leo777%2C%20I%20want%20to%20deposit"
+              onClick={haptic}
+              className="flex-1 justify-center !px-4 !py-3 !text-xs"
+            />
+            <WhatsAppButton
+              label="Withdrawl"
+              href="https://wa.me/917291080280?text=Hello%20Leo777%2C%20I%20want%20to%20withdraw"
+              onClick={haptic}
+              className="flex-1 justify-center !px-4 !py-3 !text-xs"
+            />
+          </div>
           <div className="flex items-center gap-8 text-white/50 text-sm">
             <div>
               <div className="font-display text-2xl text-white">₹300</div>
