@@ -1,6 +1,6 @@
 import React from "react";
 
-export const WHATSAPP_URL = "https://wa.me/919773676935";
+export const WHATSAPP_URL = "https://wa.me/919773676935?text=Hello%20Leo777%2C%20I%20want%20to%20join";
 
 export function WhatsAppLogo({ size = 16, className = "" }) {
   return (
@@ -21,8 +21,8 @@ export default function WhatsAppButton({
   label = "Get ID on WhatsApp",
   href = WHATSAPP_URL,
   className = "",
-  onClick = undefined,
-  buttonRef = null,
+  onClick,
+  buttonRef,
 }) {
   return (
     <a
